@@ -32,4 +32,14 @@ public class Demo {
 		integers.add(22);
 		System.out.println(integers);
 	}
+
+//	static abstract class Function<D,R>{
+//		public abstract R execute(D input);
+//	}
+//
+//	public <D,R,T> Function<D,T> compose(final Function<D,R> first, final Function<R,T> second){
+//		return null;
+//	}
+
+
 }

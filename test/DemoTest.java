@@ -39,4 +39,23 @@ public class DemoTest {
 		assertEquals(sorted.nth(4), 5);
 		assertEquals(sorted.nth(5), 99);
 	}
+
+//	@Test
+//	public void composes(){
+//		Demo.Function<Integer,Double> halve = new Demo.Function<Integer, Double>() {
+//			public Double execute(Integer input) {
+//				return input / 2.0;
+//			}
+//		};
+//
+//		Demo.Function<Integer, Integer> increment = new Demo.Function<Integer, Integer>() {
+//			@Override
+//			public Integer execute(Integer input) {
+//				return input + 1;
+//			}
+//		};
+//
+//		Demo.Function<Integer, Double> IncThenHalve = new Demo().compose(increment, halve);
+//		assertEquals(1.5, IncThenHalve.execute(2), 0.01);
+//	}
 }
