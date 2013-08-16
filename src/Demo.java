@@ -9,13 +9,13 @@ import java.util.ArrayList;
  */
 public class Demo {
 	interface SmallList<T>{
-		public void add(T toAdd);
+		public void prepend(T toAdd);
 		public T nth(Integer index);
 	}
 
 	static class FakeList<T extends Comparable<T>> implements SmallList<T>{
 
-		public void add(T toAdd) {
+		public void prepend(T toAdd) {
 		}
 
 		public T nth(Integer index){

@@ -24,12 +24,12 @@ public class DemoTest {
 	@Test
 	public void sorts(){
 		Demo.FakeList fl = new Demo.FakeList<Integer>();
-		fl.add(2);
-		fl.add(5);
-		fl.add(1);
-		fl.add(4);
-		fl.add(99);
-		fl.add(0);
+		fl.prepend(2);
+		fl.prepend(5);
+		fl.prepend(1);
+		fl.prepend(4);
+		fl.prepend(99);
+		fl.prepend(0);
 
 		Demo.FakeList sorted = fl.sort();
 		assertEquals(sorted.nth(0), 0);
