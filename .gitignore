@@ -1,0 +1,63 @@
+# common backup files
+*~
+*.swp
+*.old
+*.bak
+._*
+
+# directory files
+*.directory
+.DS_Store
+
+# eclipse
+.settings
+.buildpath
+.classpath
+.project
+.scala_dependencies
+.pmd
+.pydevproject
+*.pyc
+
+# idea
+.idea
+*.ipr
+*.iws
+*.iml
+
+# log files and folders
+logs
+*.log
+
+# netbeans
+nbproject
+project.xml
+
+# maven
+release.properties
+pom.xml.releaseBackup
+target/
+
+# config
+src/main/conf/envs/*
+!src/main/conf/envs/example_pilot
+!src/main/conf/envs/example
+!src/main/conf/envs/default
+!src/main/conf/envs/dev
+!src/main/conf/envs/test
+!src/main/conf/envs/functional-test
+!src/main/conf/envs/web-integration-test
+!src/main/conf/envs/web-pilot-integration-test
+!src/main/conf/envs/database-integration-test
+!src/main/conf/envs/deal-repository-integration-test
+!src/main/conf/envs/deal-repository-pilot-integration-test
+!src/main/conf/envs/merchant-api-integration-test
+!src/main/conf/envs/beta
+!src/main/conf/envs/live
+!src/main/conf/envs/99ers
+config/*.yml
+
+# generated files
+src/main/resources/taxonomy-errors.csv
+lib/taxonomy-archive/*
+
